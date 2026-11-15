@@ -17,6 +17,10 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
+      - name: Pakai keystore tetap (agar update tidak hapus data)
+        run: |
+          mkdir -p ~/.android
+          base64 -d debug-keystore.b64 > ~/.android/debug.keystore
       - name: Siapkan folder www
         run: |
           mkdir -p www
