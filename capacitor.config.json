@@ -1,0 +1,7 @@
+{
+  "appId": "com.monopostolab.pitwall",
+  "appName": "MonopostoLab",
+  "webDir": "www",
+  "backgroundColor": "#080d14",
+  "android": { "allowMixedContent": true }
+}
